@@ -1,0 +1,12 @@
+This program will calculate the best order in which to multiply a string of
+matrices, given their sizes. It implements the dynamic-programming example from
+CLRS.
+
+To specify your own matrices, you need to simply modify the p variable defined
+at the top of the source. In the example, there are four matrices, the first of
+size 40x20, the second of 20x50, etc. (The length of p[] will be one more than
+the number of matrices).
+
+If you want to include this in your own program, the most important function is
+fill_matrices(). You can then parse the s matrix to figure out the correct order
+of multiplication. (For an example of how to parse it, see print_expr().)
